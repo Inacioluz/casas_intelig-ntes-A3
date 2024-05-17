@@ -1,13 +1,11 @@
-import { Header } from './components/header/Header'
-import { LoginForms } from './components/login/LoginFoms'
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './Router'
 import "./global.css";
-
 
 export function App() {
   return (
-    <div>
-      <Header />
-      <LoginForms />
-    </div>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
   );
 }
