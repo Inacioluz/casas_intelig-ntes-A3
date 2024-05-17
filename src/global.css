@@ -1,0 +1,30 @@
+:root {
+  --white: #fff;
+  --white-300: #f9f9f9;
+  --black-800: #2d2e32;
+  --black-500: #555;
+  --black-300: #767676;
+  --blue-300: #147efb;
+  --yellow-600: #F4CD00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--white);
+  font-family: Poppins, sans-serif;
+  position: relative;
+  
+}
+html {
+  display: block;
+}
+body {
+  
+  font-family: 'Poppins',sans-serif;
+}

@@ -1,0 +1,25 @@
+.header {
+  align-items: center;
+  background-color: var(--yellow-600);
+  display: flex;
+  align-align: center;
+  justify-content: center;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  font-size: 1.1rem;
+  padding: 25px 40px 25px 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+}
+.header h1 {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--black-800);
+  font-weight: 1000;
+  font-size: 25pxrem;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+}
