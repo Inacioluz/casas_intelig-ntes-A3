@@ -29,7 +29,6 @@ Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
 
 ## Telas 
 
-Tela de login
 ![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/e90799bf-68cf-4094-bcf3-103acc399160)
 
 ![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/d30d47b4-c64a-4c17-a1cc-e4403f5d7907)
