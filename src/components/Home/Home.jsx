@@ -1,5 +1,4 @@
 import { useState,useEffect, useRef } from 'react';
-import { Lightbulb } from 'lucide-react';
 import styles from './Home.module.css';
 
 export function Home() {
@@ -147,14 +146,14 @@ export function Home() {
                         onClick={() => toggleLightColor(cardIndex, nameIndex)}
                         style={{ color: card.lightColors[nameIndex] }}
                       >
-                        <Lightbulb />
+                      
                       </button>
                     </li>
                   ))}
                 </ul>
                 <input
                   type="text"
-                  placeholder="Adicionar nome"
+                  placeholder="Adicionar Cômodo"
                   className={styles.nameInput}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' && e.target.value.trim() !== '') {

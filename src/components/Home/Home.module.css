@@ -72,6 +72,7 @@
 
 .editButton,
 .deleteButton {
+  display: flex;
   background: none;
   border: none;
   color: blue;
