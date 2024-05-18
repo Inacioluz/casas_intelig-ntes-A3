@@ -41,7 +41,7 @@ export function Cadastro() {
         <button type="submit" className={styles.button}>
           Cadastrar
         </button>
-        <Link to="/login">
+        <Link to="/">
           <button type="submit" className={styles.loginbutton}>
             Login
           </button>

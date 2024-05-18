@@ -11,7 +11,7 @@ export function LoginForm() {
     e.preventDefault();
 
     if (login === "adm" && password === "adm") {
-      navigate("/");
+      navigate("/home");
     } else {
       alert("Login/Senha incorretos");
     }

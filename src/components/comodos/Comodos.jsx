@@ -96,7 +96,7 @@ export function Comodos() {
       };
     }, [activeCard]);
     const handleLogout = () => {
-      navigate("/");
+      navigate("/home");
     };
     const handleViewClick = () => {
       navigate(`/luzes/`);

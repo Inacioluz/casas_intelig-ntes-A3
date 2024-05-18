@@ -125,7 +125,7 @@ export function Home() {
   }, [activeCard]);
 
   const handleLogout = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   const handleViewClick = () => {
