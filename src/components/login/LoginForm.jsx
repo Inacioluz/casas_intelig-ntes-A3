@@ -10,7 +10,6 @@ export function LoginForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Autenticação básica
     if (login === "adm" && password === "adm") {
       navigate("/");
     } else {
