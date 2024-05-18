@@ -15,8 +15,8 @@ Casas Inteliêntes. Nesse projeto crio uma aplicação  que ajuda em a controlar
 - Lucide React
 - React router dom
 
-
-
+## 🔗 Deploy
+[![deploy](https://img.shields.io/badge/Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://casas-inteligentes-a3-git-main-inacioluzs-projects.vercel.app//)
 
 ## Etiquetas
 
