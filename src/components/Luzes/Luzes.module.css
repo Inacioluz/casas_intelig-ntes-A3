@@ -1,0 +1,56 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz o contêiner ocupar a altura total da janela */
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .titleInput {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .editButton {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .svgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .smallSvg {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .legend {
+    font-size: 14px;
+    color: #666;
+  }
