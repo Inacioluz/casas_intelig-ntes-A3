@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./Luzes.module.css";
 import { Lightbulb } from "lucide-react";
 
-// eslint-disable-next-line react/prop-types
+
 export function Luzes() {
     const [isOn, setIsOn] = useState(false);
     const [title, setTitle] = useState("Luz Central");
