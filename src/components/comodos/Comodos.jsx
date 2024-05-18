@@ -1,5 +1,7 @@
 import { useState,useEffect, useRef } from 'react';
 import { Lightbulb } from 'lucide-react';
+import { FaEye } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import styles from './Comodos.module.css';
 
 export function Comodos() {
@@ -16,6 +18,7 @@ export function Comodos() {
     const handleCardClick = (index) => {
       setActiveCard(index);
     };
+    const navigate = useNavigate();
   
     const handleTitleChange = (index, newTitle) => {
       const updatedNamesList = namesList.map((card, i) =>
@@ -23,6 +26,7 @@ export function Comodos() {
       );
       setNamesList(updatedNamesList);
     };
+    
   
     const handleNameAdd = (index, newName) => {
       const updatedNamesList = namesList.map((card, i) =>
@@ -91,6 +95,12 @@ export function Comodos() {
         document.removeEventListener('mousedown', handleClickOutside);
       };
     }, [activeCard]);
+    const handleLogout = () => {
+      navigate("/");
+    };
+    const handleViewClick = () => {
+      navigate(`/luzes/`);
+    };
   
     return (
         <div className={styles.pageContainer}>
@@ -142,6 +152,10 @@ export function Comodos() {
                       >
                         Deletar
                       </button>
+                      <FaEye
+                        className={styles.viewButton}
+                        onClick={() => handleViewClick(cardIndex, nameIndex)}
+                      />
                       <button
                         className={styles.lightButton}
                         onClick={() => toggleLightColor(cardIndex, nameIndex)}
@@ -170,6 +184,9 @@ export function Comodos() {
       </div>
       <button className={styles.addButton} onClick={addNewCard}>
         Adicionar Novo Cômodo
+      </button>
+      <button className={styles.logoutButton} onClick={handleLogout}>
+        Home
       </button>
     </div>
     );

@@ -120,3 +120,12 @@
 .logoutButton:hover {
   background-color: #c00;
 }
+.viewButton {
+  margin-left: 10px;
+  color: #000;
+  cursor: pointer;
+}
+
+.viewButton:hover {
+  color: #555;
+}

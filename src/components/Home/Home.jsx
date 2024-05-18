@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { FaEye } from "react-icons/fa";
 import styles from "./Home.module.css";
 
 export function Home() {
@@ -127,6 +128,10 @@ export function Home() {
     navigate("/login");
   };
 
+  const handleViewClick = () => {
+    navigate(`/comodos/`);
+  };
+
   return (
     <div className={styles.pageContainer}>
       <div className={styles.container}>
@@ -188,6 +193,10 @@ export function Home() {
                       >
                         Deletar
                       </button>
+                      <FaEye
+                        className={styles.viewButton}
+                        onClick={() => handleViewClick(cardIndex, nameIndex)}
+                      />
                       <button
                         className={styles.lightButton}
                         onClick={() => toggleLightColor(cardIndex, nameIndex)}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Luzes.module.css";
+import { useNavigate } from "react-router-dom";
 import { Lightbulb } from "lucide-react";
 
 
@@ -7,6 +8,7 @@ export function Luzes() {
     const [isOn, setIsOn] = useState(false);
     const [title, setTitle] = useState("Luz Central");
     const [isEditingTitle, setIsEditingTitle] = useState(false);
+    const navigate = useNavigate();
   
     const toggleLight = () => {
       setIsOn(!isOn);
@@ -21,6 +23,9 @@ export function Luzes() {
         setTitle(e.target.value);
         setIsEditingTitle(false);
       }
+    };
+    const handleLogout = () => {
+      navigate("/comodos");
     };
   
   return (
@@ -53,6 +58,9 @@ export function Luzes() {
         Estado atual: {isOn ? "Ligado" : "Desligado"}
       </p>
     </div>
+    <button className={styles.logoutButton} onClick={handleLogout}>
+        Comodos
+      </button>
   </div>
   );
 }

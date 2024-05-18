@@ -54,3 +54,18 @@
     font-size: 14px;
     color: #666;
   }
+  .logoutButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #c00;
+  }
