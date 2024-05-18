@@ -30,4 +30,17 @@ Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
 ## Telas 
 
 Tela de login
+![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/e90799bf-68cf-4094-bcf3-103acc399160)
+
+![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/d30d47b4-c64a-4c17-a1cc-e4403f5d7907)
+
+![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/447ef8e6-1c6e-4648-ad19-73768b393192)
+
+![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/40ee0921-68f4-4cb5-92f7-bd1e6432cfff)
+
+![image](https://github.com/Inacioluz/casas_inteligentes-A3/assets/108021488/798b815f-a2c5-4ced-888b-46d80ce20c23)
+
+
+
+
 
