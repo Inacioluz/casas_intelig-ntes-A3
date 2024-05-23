@@ -1,7 +1,7 @@
 
 # Projeto A3 Faculdade
 
-Casas Inteliêntes. Nesse projeto crio uma aplicação  que ajuda em a controlar energia e luz dentro de casas. Com proncipal objetivo de economizar energia e qualidade de vida para as pessoas, por ser um software na palma da sua mão, você consegue controlar todo fluxo de energia da sua casa.
+Casas Inteligêntes. Nesse projeto crio uma aplicação  que ajuda a controlar energia e luz dentro de casas. Com proncipal objetivo de economizar energia e proporcionar qualidade de vida para as pessoas, por ser um software na palma da sua mão, você consegue controlar todo fluxo de energia da sua casa.
 
 
 ## Stack utilizada
